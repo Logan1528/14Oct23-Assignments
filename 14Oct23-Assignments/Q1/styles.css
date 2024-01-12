@@ -1,0 +1,61 @@
+
+/* Descendant Selector */
+a {
+    color: red;
+}
+
+/* child selector */
+nav > h2{
+    background-color: brown;
+    color: aliceblue;
+}
+
+/* Adjacent Sibling Selector */
+div + p {
+    color: red;
+}
+
+
+
+
+
+
+
+/* CSS [attribute] Selector */
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+
+/* CSS [attribute|="value"] Selector */
+a[class|="active"] {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+/* CSS [attribute="value"] Selector */
+a[target="_self"] {
+  background-color: green;  
+}
+
+
+
+
+/* Pseudo selectors */
+
+/* CSS ::after Selector */
+p:last-child::after{
+    content: " ...";
+    
+}
+
+li::marker{
+    color:rgb(126, 109, 255);
+}
+
+p:nth-last-child(2)::first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+

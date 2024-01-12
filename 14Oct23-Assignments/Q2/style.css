@@ -1,0 +1,15 @@
+
+ul li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul > li{
+    display: inline;
+    padding: 15px;
+}
+
+li + li{
+    margin: 10px;
+}
+
